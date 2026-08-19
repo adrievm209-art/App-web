@@ -1,43 +1,95 @@
-* {
-     margin: 0;
-     border: 0;
-     box-sizing: border-box;
- }
+    * {
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
 
- html {
-     font-size: 62.5%;
- }
+    html {
+        font-size: 54.5%;
+    }
 
- body {
-    background-color:#F9F8F6;
- }
+    header {
+       position: fixed;     
+       width: 600px;
+       height: 100vh;
+       background-color: #FAF8F5;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       z-index: 9999;
+    }
 
- .menu {
-     display: flex;
-     background-color: olive;
-     width: 650px;
- }
+    main {
 
- .menu_list {
-     display: flex;
-     gap: 60px;
-     margin-top: 85px;
-     flex-direction: column;
-     
- }
+        min-height: 100vh;
+        margin-left: 100vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
 
- .link_menu {
-     text-decoration: none;
-     color: black;
-     transition: .2s ease-in-out;
- }
+    .menu {
+    align-content: center;
+    width: 100%;
+    margin: 30px;
+    }
+ 
+    .menu_list {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 60px;
+        padding: 0;
+        justify-content: flex-start;
+        height: 645px;
+    }
 
- .link_menu:hover {
-     font-size: 6rem;
-     color: black;
- }
+    .link_menu {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        /* transition: .2s ease-in-out; */
+        gap: 25px;
+    }
 
- .menu_items {
-     list-style: none;
-     font-size: 40px;
- }
+    .link_menu:hover {
+        font-size: 5.8rem;
+        color: black;
+        background-color: #c88924;
+        max-width: 450px;
+        text-align: center;
+        cursor: pointer;
+        margin: 0 20px;
+
+    }
+
+    .menu_items {
+        list-style: none;
+        font-size: 40px;
+    }
+
+    .menu_logos {
+        height: 40px;
+        width: 40px;
+        transition: .2s ease-in-out;
+        margin-left: 70px;
+    }
+
+    .link_menu:hover .menu_logos {
+        height: 5.8rem;
+        width: 5.8rem;
+        color: black;
+        border: #c88924;
+        background-color: #c88924;
+        max-width: 450px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .menu_logo {
+        width: 500px;
+        height: 400px;
+        margin: 0 auto;
+        object-fit: cover;
+    }
