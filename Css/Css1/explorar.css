@@ -1,0 +1,95 @@
+main {
+    width: calc(100% - 600px);
+    height: 100vh;
+    min-height: 100vh;
+    margin-left: 600px;
+    padding: 35px 40px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 150px;
+}
+
+.card {
+    width: 720px;
+    height: 650px;
+    border: 10px inset beige;
+    display: flex;
+    flex-direction: column;
+    transition: .2s ease-in-out;
+    
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card_names {
+    font-size: 35px;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.card_name {
+    font-size: 25px;
+}
+
+.pp {
+    font-size: 20px;
+}
+
+.card_cont {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 10px;
+}
+
+.container {  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    margin: auto;
+}
+
+.card_image {
+    height: 83%;
+    object-fit: cover;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+    gap: 380px;
+    padding: 15px 15px;
+    border: 8px inset beige;
+    width: 1100px;
+    transition: .2s ease-in-out;
+}
+
+.field:hover {
+    transform: scale(1.1);
+}
+
+.placeholder {
+    width: 600px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.barradb {
+    padding-bottom: 30px;
+    padding-left: 70px;
+}
+
