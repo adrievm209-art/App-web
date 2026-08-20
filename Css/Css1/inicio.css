@@ -1,4 +1,15 @@
-.menuo_list{
+
+main {
+    width: calc(100% - 600px);
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border:  solid black ;
+}
+
+.menuo_list {
     display: flex;
     align-items: center;
     margin: auto;
@@ -6,6 +17,10 @@
 }
 
 .link_menuo {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
     color: black;
     cursor: pointer;
     list-style: none;
@@ -20,8 +35,14 @@
     list-style: none;
     color: black;
     text-decoration: none;
+    flex-direction: column;
 }
 
-.menuo_logo{
+.menuo_logo {
     width: 50px;
+}
+
+.menuo_nombre {
+    font-size: 2rem;
+
 }
