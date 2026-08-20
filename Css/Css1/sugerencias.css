@@ -1,3 +1,93 @@
+main {
+    width: calc(100% - 600px);
+    height: 100vh;
+    min-height: 100vh;
+    margin-left: 600px;
+    padding: 35px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+label, input {
+    display: block;
+}
+
+form {
+    background-color: beige;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(31, 30, 29, 0.699);
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0;
+    margin:20px;
+    width: 1500px;
+    height: 1200px;
+    gap: 30px;
+    margin: auto;
+    padding-top: 80px ;   
+}
+
+label {
+    font-size: 6rem;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px;
+    background-color: transparent;
+    border-bottom: 20px inset beige;
+    border-left: 20px inset beige;
+    border-radius: 5px;
+    height: 100px;
+    width: 600px;
+    margin-top: 10px;
+}
+
+input::placeholder {
+    color: black;
+    font-size: 30px;
+}
+
+input:focus {
+    background-color: transparent;
+    box-shadow: -3px 0 4px black;
+}
+
+button {
+    padding: 50px 200px ;
+    border: none;
+    background-color: beige;
+    border-radius: 7px;
+    color: black;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+.boton {
+    margin: auto;
+}
+
+button:hover {
+    background-color: #c889246f;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 60px;
+}
+
 footer {
     margin-left: 600px;
     padding: 35px 40px;
@@ -18,6 +108,13 @@ footer {
 .logos {
     width: 40px;
     height: 40px;
+}
+
+.logos:hover {
+    width: 60px;
+    height: 60px;
+    background-color: #c889246f;
+    border-radius: 50%;
 }
 
 .derechosreservados {

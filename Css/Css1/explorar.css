@@ -5,8 +5,6 @@ main {
     margin-left: 600px;
     padding: 35px 40px;
     align-content: center;
-    display: flex;
-    flex-direction: column;
     gap: 60px;
     padding-top: 150px;
 }
@@ -18,7 +16,6 @@ main {
     display: flex;
     flex-direction: column;
     transition: .2s ease-in-out;
-    
 }
 
 .card:hover {
@@ -52,10 +49,13 @@ main {
 
 .container {  
     display: flex;
+    flex-direction: column;
+    display: flex;
     flex-direction: row;
     align-items: center;
     gap: 60px;
     margin: auto;
+    margin-top: 60px;
 }
 
 .card_image {
@@ -100,6 +100,7 @@ footer {
     background-color: white;
     overflow: hidden;
     justify-content: space-between;
+    margin-top: 980px;
 }
 
 .contenido_footer {
@@ -113,6 +114,13 @@ footer {
 .logos {
     width: 40px;
     height: 40px;
+}
+
+.logos:hover {
+    width: 60px;
+    height: 60px;
+    background-color: #c889246f;
+    border-radius: 50%;
 }
 
 .derechosreservados {
