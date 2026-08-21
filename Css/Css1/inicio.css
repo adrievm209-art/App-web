@@ -95,3 +95,61 @@ footer {
     font-size: 20px;
     font-weight: bold;
 }
+
+.card {
+    width: 720px;
+    height: 650px;
+    border: 10px inset beige;
+    display: flex;
+    flex-direction: column;
+    transition: .2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card_names {
+    font-size: 35px;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.card_name {
+    font-size: 25px;
+}
+
+.pp {
+    font-size: 20px;
+}
+
+.card_cont {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 10px;
+}
+
+.container {  
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.card_image {
+    height: 83%;
+    object-fit: cover;
+}
+
+.texto {
+    font-size: 100px;
+}
